@@ -8,6 +8,7 @@ int a[]={0,0,0,0,0,0,0,0,0},b[]={0,0,0,0,0,0,0,0,0};
 void main()
 {
 int ch,wish;
+clrscr();
 do
 {
 printf("\n___MENU___\n");
@@ -17,13 +18,13 @@ scanf("%d",&ch);
 switch(ch)
 {
 case 1:input();
-    break;
+	break;
 case 2:setunion();
-    break;
+	break;
 case 3:intersection();
-    break;
+	break;
 case 4:difference();
-    break;
+	break;
 }
 printf("\nDo you wish to continue?(1/0)\n");
 scanf("%d",&wish);
@@ -114,6 +115,6 @@ for(i=0;i<9;i++)
 printf("%d",c[i]);
 }
 output(c);
-
+getch();
 }
 
